@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>computer Graphics</title>
+
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css\templatemo-style.css">
+    <!-- Templatemo style -->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <header class="text-center tm-site-header">
+                    <div class="tm-site-logo"></div>
+                    <h1 class="pl-4 tm-site-title">Computer Graphics</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="tm-video-container">
+                    <img src="imgs\3amena.jpeg" alt="Image" height="500" width="1200">
+
+                    <div id="tm-video-text-overlay" class="tm-video-text-overlay d-none">
+                        <h1>
+                            <div id="rotate" class="tm-video-text">
+                                <div>This is timeless</div>
+                                <div>We are invincible</div>
+                                <div>Quite unbeatable</div>
+                                <div>and indestructible</div>
+                            </div>
+                        </h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container tm-container-2">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="tm-welcome-text">Welcome to VTK Volume Rendering</h2>
+            </div>
+        </div>
+        <div class="row tm-section-mb">
+            <div class="col-lg-12">
+                <div class=" tm-timeline-item">
+                    <div class="tm-timeline-item-inner">
+                        <img src="imgs\clipping.jpeg" alt="Image" class="rounded-circle tm-img-timeline">
+                        <div class="tm-timeline-connector">
+                            <p class="mb-0">&nbsp;</p>
+                        </div>
+                        <div class="tm-timeline-description-wrap">
+                            <div class="tm-bg-dark tm-timeline-description">
+                                <h3 class="tm-text-green tm-font-400">Volume Clipping and Cropping</h3>
+                                <p>A chest with an interactive widget in which the user can perform clipping, cropping and rotations on the whole scene of the chest.</p>
+                                <input id="clickMeClip" class="tm-text-cyan float-right mb-0" type="button" style="width: 150px; height :50px;font-size:25px;border:outset" value="Clipping!" />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tm-timeline-connector-vertical"></div>
+                </div>
+
+                <div class="tm-timeline-item">
+                    <div class="tm-timeline-item-inner">
+                        <img src="imgs\iso.jpeg" alt="Image" class="rounded-circle tm-img-timeline">
+                        <div class="tm-timeline-connector">
+                            <p class="mb-0">&nbsp;</p>
+                        </div>
+                        <div class="tm-timeline-description-wrap">
+                            <div class="tm-bg-dark-light tm-timeline-description">
+                                <h3 class="tm-text-cyan tm-font-400">ISO Rendering</h3>
+                                <p>Iso Rendering is performed on a SKULL with top left resolution slider to control the degree of the iso Rendering on the Skull</p>
+                                <input id="clickMeIso" class="tm-text-cyan float-right mb-0" type="button" style="width: 150px; height :50px;font-size:25px;border:outset" value="ISO!" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-timeline-connector-vertical"></div>
+                </div>
+
+                <div class="tm-timeline-item">
+                    <div class="tm-timeline-item-inner">
+                        <img src="imgs\ray_casting.jpeg" alt="Image" class="rounded-circle tm-img-timeline">
+                        <div class="tm-timeline-connector">
+                            <p class="mb-0">&nbsp;</p>
+                        </div>
+                        <div class="tm-timeline-description-wrap">
+                            <div class="tm-bg-dark tm-timeline-description">
+                                <h3 class="tm-text-yellow tm-font-400">Ray Casting and Transfare functions</h3>
+                                <p>A chest in which user can manipulate values of a transfer function to change the ray casting passing through the scene of the whole chest.</p>
+                                <input id="clickMeRayCasting" class="tm-text-cyan float-right mb-0" type="button" style="width: 150px; height :50px;font-size:25px;border:outset" value="Ray Casting" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-timeline-connector-vertical"></div>
+                </div>
+            </div>
+            <input style="width: 200px; height:50px ; position:relative;
+            left: 45%;
+            font-size:25px; 
+            top:90%" id="Back_button" type="button" value="Home" name="Home" />
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
