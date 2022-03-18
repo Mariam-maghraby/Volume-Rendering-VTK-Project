@@ -1,11 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6634618&assignment_repo_type=AssignmentRepo)
 
-# Team Members:
-## Mahmoud Mohamed Seleem
-## Mariam Ashraf Fathi
-## Merna Hossam Mohamed
-## Nada Mamdouh Mohamed
-
 ### Details of implementaion:
 - in this task we have used the VC model to achieve the goals of the task.
 - we have used the html files to make the User Interface with the help of the CSS.
@@ -53,3 +47,9 @@
 ### How we resolved it:
 - We put each scene render window in a container and toggled the visiblity of the container.
 - We constructed the controlPanel by ourselves in the index.js file.
+
+## Team Members:
+### Mahmoud Mohamed Seleem
+### Mariam Ashraf Fathi
+### Merna Hossam Mohamed
+### Nada Mamdouh Mohamed
