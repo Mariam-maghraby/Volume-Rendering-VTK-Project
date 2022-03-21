@@ -16,7 +16,7 @@
 - We used surface rendering on the skull with an adjustable iso value in a control panel.
 - Also there is a second example for the chest where we performed ray casting rendering with a transfer function in a widget, and there are multiple interactions in this widget where if the user double clicked, he will create a gaussian at that given position and can delete it with right click, and with dragging the user can change the width and the position of the gaussian.
 
-### code snippets:
+### Code snippets:
 - Our main GUI
 
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/GUI.jpeg)
