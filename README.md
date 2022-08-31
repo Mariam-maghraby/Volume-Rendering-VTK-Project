@@ -48,8 +48,11 @@
 - We put each scene render window in a container and toggled the visiblity of the container.
 - We constructed the controlPanel by ourselves in the index.js file.
 
-## Team Members:
-### Mahmoud Mohamed Seleem
-### Mariam Ashraf Fathi
-### Merna Hossam Mohamed
-### Nada Mamdouh Mohamed
+<br>
+<br>
+
+### Project Team Members:
+- Mahmoud Mohamed Seleem
+- Mariam Ashraf Fathi
+- Merna Hossam Mohamed
+- Nada Mamdouh Mohamed
